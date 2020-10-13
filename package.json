@@ -1,0 +1,15 @@
+{
+  "name": "react-native-picture",
+  "version": "1.0.0",
+  "description": "Cusomizable React native avatar component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Autrey",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.63.3"
+  }
+}
