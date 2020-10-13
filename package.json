@@ -11,5 +11,21 @@
   "peerDependencies": {
     "react": "^16.13.1",
     "react-native": "^0.63.3"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swushi/react-native-picture.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "picture",
+    "avatar"
+  ],
+  "bugs": {
+    "url": "https://github.com/swushi/react-native-picture/issues"
+  },
+  "homepage": "https://github.com/swushi/react-native-picture#readme"
 }
