@@ -1,23 +1,21 @@
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import {
-  View, Image,
-  ImageSourcePropType,
-  ViewStyle
-} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import Picture from 'react-native-picture';
 
-export interface PictureProps {
-  radius: number;
-  source: ImageSourcePropType;
-  style?: ViewStyle;
-}
-
-const Picture = ({ radius, source, style }: PictureProps) => {
-  const diameter = radius * 2;
+export default function App() {
   return (
-    <View style={{ height: diameter, width: diameter, borderRadius: 500, overflow: 'hidden', ...style }} >
-      <Image style={{ flex: 1, width: undefined, height: undefined }} source={source} />
-    </View >
+    <View style={styles.container}>
+      <Picture radius={200} source={{ uri: 'https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80' }} />
+    </View>
   );
 }
 
-export default Picture;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
