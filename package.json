@@ -1,6 +1,6 @@
 {
   "name": "react-native-picture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cusomizable React native avatar component",
   "main": "index.js",
   "scripts": {
